@@ -15,11 +15,12 @@ module.exports = {
     //用于放置生成的静态资源 (js、css、img、fonts) 的；（项目打包之后，静态资源会放在这个文件夹下）
     assetsDir: "static",
 
-    // 默认情况下，生成的静态资源在它们的文件名中包含了 hash 以便更好的控制缓存。
+    // 默认情况下，生成的静
+    // 态资源在它们的文件名中包含了 hash 以便更好的控制缓存。
     filenameHashing: true,
 
     // 不需要生产环境的 source map，可以将其设置为 false 以加速生产环境构建,map就是为了方便打印错误位置。
-    productionSourceMap: false,
+    productionSourceMap: true,
 
     css: {
         //extract: true, //设为true的话热更新会出问题
